@@ -1,5 +1,10 @@
 import streamlit, requests
 
+streamlit.set_page_config(
+    page_title="Conversor de Monedas CLP a BRL",
+    page_icon="💵"
+)
+
 url = "https://api.frankfurter.dev/v2/rates?base=clp"
 
 respuesta = requests.get(url)
