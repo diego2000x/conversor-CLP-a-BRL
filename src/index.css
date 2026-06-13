@@ -1,11 +1,10 @@
 body {
   display: flex;
   justify-content: center;
-  height: 100vh;
+  height: 100%;
   background: linear-gradient(rgb(15, 15, 15) 0%, rgb(0, 27, 0) 100%);
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  overflow: hidden;
 }
 
 .Header {
