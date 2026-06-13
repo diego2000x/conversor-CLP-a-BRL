@@ -1,16 +1,17 @@
 body {
   display: flex;
   justify-content: center;
-  height: 100%;
+  align-items: center;
+  height: 100vh;
   background: linear-gradient(rgb(15, 15, 15) 0%, rgb(0, 27, 0) 100%);
   color: white;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
 }
 
 .Header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   text-align: center;
   background-color: rgba(240, 248, 255, 0.041);
@@ -20,6 +21,15 @@ body {
   padding: 1rem;
   margin: 1rem;
   text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+.Header h1 {
+  margin: 0.1rem;
+  align-self: center;
+}
+
+.Header h2 {
+  margin: 0.1rem;
 }
 
 .banderas {
@@ -53,6 +63,5 @@ body {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 10px;
-  padding: 1rem;
   margin: 1rem;
 }
